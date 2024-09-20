@@ -30,3 +30,23 @@ a {
     display: flex;
     gap: 20px;
 }
+
+
+.parent-1 {
+    background-color: #010187;  
+    width: 100%;            
+    height: 300px;          
+    display: flex;          
+    justify-content: center;
+    align-items: center;     
+    padding: 0;             
+    margin: 0;              
+    box-sizing: border-box; 
+}
+
+.child-1 {
+    background-color: #e980e9;   
+    width: 650px;            
+    height: 250px;           
+}
+
