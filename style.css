@@ -1,29 +1,29 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 ul,
 ol,
 li {
-	list-style: none;
+    list-style: none;
 }
 
 a {
-	color: currentColor;
-	text-decoration: none;
+    color: currentColor;
+    text-decoration: none;
 }
 
 .main-header {
     background-color: #a2cad7;
-	padding: 12px 400px;
+    padding: 12px 400px;
 }
 
 .navbar {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-menu {
@@ -33,71 +33,98 @@ a {
 
 
 .parent-1 {
-    background-color: #010187;  
-    width: 100%;            
-    height: 300px;          
-    display: flex;          
+    background-color: #010187;
+    width: 100%;
+    height: 300px;
+    display: flex;
     justify-content: center;
-    align-items: center;     
-    padding: 0;             
-    margin: 0;              
-    box-sizing: border-box; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .child-1 {
-    background-color: #e980e9;   
-    width: 550px;            
-    height: 250px;           
+    background-color: #e980e9;
+    width: 550px;
+    height: 250px;
+    border-style: dashed;
 }
 
 .parent-2 {
-    background-color: rgb(255, 255, 255);  
-    width: 100%;             
-    height: 300px;          
-    display: flex;          
-    justify-content: center; 
-    align-items: center;     
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .child-2 {
-    background-color: #1e90ff;  
-    width: 350px;           
-    height: 250px;           
-    margin: -10px;        
+    background-color: #1e90ff;
+    width: 350px;
+    height: 250px;
+    margin: -10px;
+    border-style: dashed;
 }
 
 .child-2-1 {
-    background-color: #ffc0cb;   
-    width: 250px;           
-    height: 250px;           
-    margin: 0 10px;         
+    background-color: #ffc0cb;
+    width: 250px;
+    height: 250px;
+    margin: 0 10px;
+    border-style: dashed;
 }
 
 .parent-3 {
-    background-color: #d3d3d3;  
-    width: 100%;             
-    height: 300px;          
-    display: flex;          
-    justify-content: center; 
-    align-items: center;     
+    background-color: #d3d3d3;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
+
 .child-3 {
-    background-color: #1e90ff;  
-    width: 250px;           
-    height: 250px;           
-    margin: 0 10px;        
+    background-color: #1e90ff;
+    width: 250px;
+    height: 250px;
+    margin: 0 10px;
+    border-style: dashed;
 }
 
 .child-3-1 {
-    background-color: #ffc0cb;   
-    width: 350px;           
-    height: 250px;           
-    margin: -10px;           
+    background-color: #ffc0cb;
+    width: 350px;
+    height: 250px;
+    margin: -10px;
+    border-style: dashed;
+}
+
+
+
+.parent-5 {
+    background-color: #d3d3d3;
+    width: 100%;
+    min-height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.child-5 {
+    background-color: #228b22;
+    width: 550px;
+    height: 450px;
+    border-style: dashed;
 }
