@@ -128,3 +128,32 @@ a {
     height: 450px;
     border-style: dashed;
 }
+
+
+.parent-6 {
+    background-color: #23272a;
+    width: 100%;
+    min-height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.child-6 {
+    background-color: #f08080;
+    width: 200px;
+    height: 350px;
+    border-style: dashed;
+    margin: 0px;
+}
+
+.child-6-1 {
+    background-color: #20b2aa;
+    width: 100px;
+    height: 350px;
+    border-style: dashed;
+    margin: 0 px;
+}
