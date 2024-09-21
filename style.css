@@ -13,6 +13,7 @@ li {
 a {
     color: currentColor;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .main-header {
@@ -23,12 +24,37 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 10px 150px 10px 150px;
+}
+
+.logo, .logo-footer, .button, .login {
+    display: inline-block;
+    border: 3px dashed; 
+}
+
+.login {
+padding: 10px 20px 10px 106px;
+}
+
+.logo {
+    padding: 10px 106px 10px 20px;
+}
+
+.logo-footer {
+    padding: 5px 15px 5px;
+
+}
+
+.button {
+    padding: 5px 15px 5px;
 }
 
 .main-menu {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    padding: 10px 120px 10px 120px;
+    border: 3px dashed; 
 }
 
 .section {
@@ -50,11 +76,28 @@ a {
     padding: 35px;
 }
 
+.bg-black {
+    background-color: #030303;
+    padding: 35px; 
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 2rem;
+}
 
+.footer {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0px;
+}
+
+.footer-container {
+    margin: 0px auto;
+    max-width: 835px;
+    background-color: #61bb9d;
+    padding: 15px 0px;
 }
 
 .row {
@@ -63,35 +106,51 @@ a {
     align-items: center;
 }
 
-.col {
-    padding: 140px;
-    border-style: dashed;
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[class^="col-"] {
+    border: dashed;
+}
+
+
+.col-100 {
+    background-color: #228b22;
+    width: 100%;
+    padding: 250px;
 }
 
 .col-80 {
     background-color: #b767b7;
     width: 80%;
     padding: 140px;
-    border-style: dashed;
 }
 
-.col-60 {
+.col-70 {
     background-color: #1e90ff;
     width: 60%;
     padding: 140px;
-    border-style: dashed;
 }
 
+
 .col-40 {
+    background-color: #f08080;
+    width: 40%;
+    padding: 200px 150px ;
+}
+
+.col-30 {
     background-color: #ffc0cb;
     width: 40%;
     padding: 140px;
-    border-style: dashed;
 }
 
-.col-100 {
-    background-color: #228b22;
-    width: 100%;
-    padding: 250px;
-    border-style: dashed;
+
+.col-15 {
+    background-color: #20b2aa;
+    padding: 200px 60px; 
 }
+
