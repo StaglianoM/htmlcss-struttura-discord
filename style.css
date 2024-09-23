@@ -18,15 +18,21 @@ a {
 
 .main-header {
     background-color: #a2cad7;
-    padding: 12px 400px;
+    padding: 10px 0;
 }
 
 .navbar {
+    margin: 0px auto;
+    max-width: 835px;
+}
+
+
+.navbar-row {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 150px 10px 150px;
 }
+
 
 .logo, .logo-footer, .button, .login {
     display: inline-block;
@@ -34,11 +40,11 @@ a {
 }
 
 .login {
-padding: 10px 20px 10px 106px;
+padding: 10px 20px;
 }
 
 .logo {
-    padding: 10px 106px 10px 20px;
+    padding: 10px 20px;
 }
 
 .logo-footer {
@@ -100,17 +106,19 @@ padding: 10px 20px 10px 106px;
     padding: 15px 0px;
 }
 
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.row-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 [class^="col-"] {
     border: dashed;
